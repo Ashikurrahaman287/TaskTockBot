@@ -1,0 +1,16 @@
+# Ignore the .env file to prevent sensitive data from being included in the image
+.env
+
+# Ignore Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Ignore vendor dependencies
+/vendor
+
+# Ignore local and MacOS files
+**/.DS_Store
